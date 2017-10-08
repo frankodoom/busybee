@@ -13,7 +13,9 @@ import static net.accedegh.awaitme.IOStream.readStream;
  * Created by FrankOdoom on 08/10/17.
  */
 
-public class HttpConnection {
+//https://docs.oracle.com/javase/tutorial/networking/urls/readingWriting.html
+
+public class HttpClient {
     private static HttpURLConnection connection;
 
          public static HttpURLConnection getConnection() {
